@@ -1,0 +1,272 @@
+{
+ "job_name": "terminal-bench-2.1-codeaf",
+ "jobs_dir": "runs/final/jobs",
+ "n_attempts": 3,
+ "n_concurrent_trials": 40,
+ "retry": {
+  "max_retries": 2
+ },
+ "tasks": [
+  {
+   "path": "terminal-bench-2-1/tasks/train-fasttext"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/regex-chess"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/caffe-cifar-10"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/schemelike-metacircular-eval"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/extract-moves-from-video"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/sam-cell-seg"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/winning-avg-corewars"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/compile-compcert"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/make-mips-interpreter"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/mcmc-sampling-stan"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/dna-assembly"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/query-optimize"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/fix-ocaml-gc"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/install-windows-3.11"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/llm-inference-batching-scheduler"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/rstan-to-pystan"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/adaptive-rejection-sampler"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/make-doom-for-mips"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/tune-mjcf"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/circuit-fibsqrt"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/gpt2-codegolf"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/mteb-leaderboard"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/largest-eigenval"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/filter-js-from-html"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/raman-fitting"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/video-processing"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/mailman"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/path-tracing-reverse"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/protein-assembly"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/cobol-modernization"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/torch-pipeline-parallelism"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/dna-insert"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/gcode-to-text"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/write-compressor"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/feal-differential-cryptanalysis"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/build-cython-ext"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/large-scale-text-editing"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/torch-tensor-parallelism"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/reshard-c4-data"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/feal-linear-cryptanalysis"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/extract-elf"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/model-extraction-relu-logits"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/overfull-hbox"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/path-tracing"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/custom-memory-heap-crash"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/headless-terminal"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/portfolio-optimization"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/count-dataset-tokens"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/build-pov-ray"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/mteb-retrieve"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/cancel-async-tasks"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/polyglot-rust-c"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/pytorch-model-recovery"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/configure-git-webserver"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/git-multibranch"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/crack-7z-hash"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/bn-fit-modify"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/polyglot-c-py"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/pytorch-model-cli"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/sanitize-git-repo"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/chess-best-move"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/regex-log"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/build-pmars"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/financial-document-processor"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/password-recovery"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/distribution-search"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/sqlite-with-gcov"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/sparql-university"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/db-wal-recovery"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/merge-diff-arc-agi-task"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/sqlite-db-truncate"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/break-filter-js-from-html"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/multi-source-data-merger"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/pypi-server"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/constraints-scheduling"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/kv-store-grpc"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/hf-model-inference"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/fix-git"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/git-leak-recovery"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/nginx-request-logging"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/fix-code-vulnerability"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/openssl-selfsigned-cert"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/code-from-image"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/log-summary-date-ranges"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/vulnerable-secret"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/modernize-scientific-stack"
+  },
+  {
+   "path": "terminal-bench-2-1/tasks/prove-plus-comm"
+  }
+ ]
+}

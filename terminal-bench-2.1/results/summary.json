@@ -1,0 +1,46 @@
+{
+  "codeaf senior-dev": {
+    "audited": {
+      "tasks": 87,
+      "attempts": 261,
+      "mean_of_3_pct": 82.0,
+      "mean_of_3_ci95_pct": [
+        75.1,
+        88.5
+      ],
+      "pass_at_3_pct": 89.7,
+      "all_3_pct": 72.4,
+      "cost_per_task_usd": 0.0255,
+      "total_cost_usd": 6.66,
+      "median_attempt_seconds": 377.0
+    },
+    "audited_unreviewed_counted_pass": {
+      "tasks": 87,
+      "attempts": 261,
+      "mean_of_3_pct": 83.9,
+      "mean_of_3_ci95_pct": [
+        77.4,
+        90.0
+      ],
+      "pass_at_3_pct": 93.1,
+      "all_3_pct": 72.4,
+      "cost_per_task_usd": 0.0255,
+      "total_cost_usd": 6.66,
+      "median_attempt_seconds": 377.0
+    },
+    "reward_only": {
+      "tasks": 87,
+      "attempts": 261,
+      "mean_of_3_pct": 85.1,
+      "mean_of_3_ci95_pct": [
+        78.5,
+        90.8
+      ],
+      "pass_at_3_pct": 93.1,
+      "all_3_pct": 74.7,
+      "cost_per_task_usd": 0.0255,
+      "total_cost_usd": 6.66,
+      "median_attempt_seconds": 377.0
+    }
+  }
+}

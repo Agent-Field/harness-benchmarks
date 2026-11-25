@@ -1,0 +1,6 @@
+runs/
+*.csv.gz
+__pycache__/
+terminal-bench-2.1/bin/
+terminal-bench-2.1/codeaf-src/
+terminal-bench-2.1/terminal-bench-2-1/
